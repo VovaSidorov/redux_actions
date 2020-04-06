@@ -6,5 +6,5 @@ export const { increment, decrement, myltiply, addtext, changetext } = createAct
     DECREMENT: (amount = 1) => ({ amount: -amount }),
     MYLTIPLY: (amount = 5) => ({ amount: amount }),
     ADDTEXT: (newTextAction ) => ({ amount: newTextAction }),
-    CNGTEXT: (cngtext)=>({amount:cngtext})
+    CHANGETEXT: (changeText)=>({amount:changeText})
 });
